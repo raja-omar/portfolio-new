@@ -35,7 +35,7 @@ function Navbar() {
         </a>
       </li>
       <li className="sm:text-right">
-        <a
+        <Link
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
@@ -49,7 +49,7 @@ function Navbar() {
             height={16}
             className="opacity-40 group-hover:opacity-100 transition-opacity duration-200"
           />
-        </a>
+        </Link>
       </li>
     </ul>
   );
